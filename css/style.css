@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: Arial;
+    /* overflow: hidden; */
+}
+.header{
+    background-color: aliceblue;
+    font-size: 2pc;
+    padding:10px 1pc;
+    text-transform: uppercase;
+    height:4pc;
+    border-bottom: 1px solid blue;
+}
+.body{
+    height:25pc;
+    display: flex;
+    border-bottom: blue solid 1px;
+}
+
+.left{
+    width:20%;
+    height:100%;
+    padding-left:4px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    background: rgb(225, 225, 231);
+    border-right: 1px solid blue;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5pc;
+    padding: 0.3pc;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+.right{
+    overflow-y: auto;
+    width:78%;
+    padding: 6px;
+    height:100%;
+
+}
+
+input[type=radio]{
+    width: 1pc;
+}
+.close:hover{
+    background-color: none;
+}
+input[type=submit]{
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgba(117, 117, 220, 0.929);
+}
+.form{
+    width: 77%;
+    background-color: rgba(200, 201, 220, 0.578);
+    height: 25pc;
+    max-height: 25pc;
+    position: absolute;
+    top: 5.5pc;
+    overflow-y: auto;
+}
+.formh{
+    display: none;
+}
+td{
+    font-size: 1pc;
+    height: 2pc;
+    padding-left: 0.2pc;
+}
+th{
+    height: 2pc;
+    text-align: left;
+    font-size: 0.9pc;
+}
+.footer{
+    height: 4pc;
+    text-align: center;
+    font-size: 2pc;
+}
+table{
+    border-collapse: collapse;
+}
+
+.from{
+    background-color: rgba(136, 134, 134, 0.575);
+}
+label{
+    font-size: 1.5pc;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    margin: 5px 1px;
+    color: blue;
+}
+form{
+    background-color: rgb(197, 197, 206);
+    width:30%;
+    height:auto;
+    border:blue solid 2px;
+    padding:1pc;
+    margin: 0 auto;
+    border-radius: 0.5pc;
+}
+.hf{
+    font-size: 2.5pc;
+    text-decoration: double;
+    color: black;
+    margin:0 auto;
+}
+input,select{
+    margin-bottom: 0.3pc;
+    height:2pc;
+    width: 100%;
+    outline: none;
+    border-radius: 0.5pc;
+    
+}
+.add{
+    float: right;
+    padding:0.1pc;
+    border-radius: 0.4pc;
+}
+
+.add button{
+    background-color: green;
+    color: white;height: 2pc;width: 3pc;
+
+}
+.report{
+    width: 100%;
+
+}
+.report form{
+  display: flex;
+  padding: 2px 4px;
+  justify-content: space-between;
+
+}
+.report form select{
+    width: 60%;
+}
+.report form input[type=submit]{
+    width: 30%;
+    background-color: blue;
+    color: wheat;
+}
+.pdf{
+    width: 10pc;
+    float: right;
+    padding:0.1pc;
+    
+    
+}
+.pdf button{
+    border-radius: 0.4pc;
+    font-size: 1pc;
+    color: white;
+    padding: 0.4pc;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+.pdf button:hover{
+background-color: rgba(38, 152, 38, 0.881);
+}

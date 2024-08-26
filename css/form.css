@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: Arial;
+}
+.header{
+    background-color: aliceblue;
+    font-size: 2pc;
+    padding:10px 1pc;
+    text-transform: uppercase;
+    height:4pc;
+    border-bottom: 1px solid blue;
+}
+.from{
+    background-color: rgba(136, 134, 134, 0.575);
+}
+label{
+    font-size: 1.5pc;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    margin: 5px 1px;
+    color: blue;
+}
+form{
+    background-color: rgb(197, 197, 206);
+    width:30%;
+    height:auto;
+    border:blue solid 2px;
+    padding:1pc;
+    margin: 0 auto;
+    border-radius: 0.5pc;
+}
+.hf{
+    font-size: 2.5pc;
+    text-decoration: double;
+    color: black;
+    margin:0 auto;
+}
+input,select{
+    margin-bottom: 0.3pc;
+    height:2pc;
+    width: 100%;
+    outline: none;
+    border-radius: 0.5pc;
+    
+}
